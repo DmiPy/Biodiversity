@@ -6,19 +6,20 @@ This project analyzes biodiversity data in national parks using Python and data 
 
 The code in this project performs the following tasks:
 
-1. Reads the observations and species info data from CSV files.
-2. Filters the species data by dropping rows with missing conservation status.
-3. Merges the observations and filtered species data based on scientific name.
-4. Selects the necessary columns for correlation analysis.
-5. Creates a new DataFrame with the selected columns.
-6. Removes rows with missing values.
-7. Converts categorical data to numerical format.
-8. Creates a correlation matrix of the selected data.
-9. Generates a heatmap of the correlation matrix.
-10. Groups the data by category and calculates the sum of observations in each category.
-11. Creates a bar chart to visualize the distribution of observations by animal categories.
-12. Creates a strip plot to explore the correlation between conservation status and observations.
-13. Identifies duplicates or different designations for the same species based on scientific name.
+1. ### Removes rows and missing values or duplicates
+2. ### Adjusts the data to the required format
+3. ### Creates a correlation matrix of the selected data.
+4. ### Generates a heatmap of the correlation matrix.
+
+![category_conservation_heatmap](https://github.com/DmiPy/Biodiversity/assets/128055633/0b6df2cb-3009-4757-8708-249ebbf8ba61)
+
+5. ### Creates a bar chart to visualize the distribution of observations by animal categories.
+
+![animal_observations_bar](https://github.com/DmiPy/Biodiversity/assets/128055633/ba5ff335-e409-4b6b-8268-12dc1818c6e4)
+
+7. ### Creates a strip plot to explore the correlation between conservation status and observations.
+
+![conservation_observations_strip](https://github.com/DmiPy/Biodiversity/assets/128055633/deddcad1-50fb-4af7-b501-b864e38831f6)
 
 ## Dependencies
 
