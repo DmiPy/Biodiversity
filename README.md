@@ -6,7 +6,7 @@ This project analyzes biodiversity data in national parks using Python and data 
 
 The code in this project performs the following tasks:
 
-1. ### Removes rows and missing values or duplicates
+1. ### Removes rows with missing values or duplicates
 2. ### Adjusts the data to the required format
 3. ### Creates a correlation matrix of the selected data.
 4. ### Generates a heatmap of the correlation matrix.
