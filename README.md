@@ -11,7 +11,7 @@ The code in this project performs the following tasks:
 3. ### Creates a correlation matrix of the selected data.
 4. ### Generates a heatmap of the correlation matrix.
 
-![category_conservation_heatmap](https://github.com/DmiPy/Biodiversity/assets/128055633/0b6df2cb-3009-4757-8708-249ebbf8ba61)
+![category_conservation_heatmap](https://github.com/DmiPy/Biodiversity/assets/128055633/836fb916-edb2-42d0-87d1-312d08b54d75)
 
 5. ### Creates a bar chart to visualize the distribution of observations by animal categories.
 
